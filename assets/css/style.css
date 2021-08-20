@@ -5,7 +5,8 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    color: #272829;
+    color: #999;
+    background: #000;
 }
 
 a {
@@ -74,7 +75,7 @@ h6 {
     padding: 0 15px;
     background: #040b14;
     overflow-y: auto;
-}
+    }
 
 #header {
     transition: all ease-in-out 0.5s;
@@ -232,7 +233,7 @@ h6 {
 #portada {
     width: 100%;
     height: 100vh;
-    background: url("../img/profile.jpg") top center;
+    background: url("../img/fondo1.jpg") top center;
     background-size:cover;
 }
 
@@ -391,7 +392,7 @@ section {
     line-height: 40px;
     display: block;
     font-weight: 700;
-    color: #050d18;
+    color: #aaa;
     margin-left: 60px;
 }
 
@@ -442,7 +443,7 @@ section {
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #050d18;
+    color:#1071A2;
 }
 
 .resume .resume-item {
@@ -458,13 +459,15 @@ section {
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    color: #050d18;
+    
     margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
     font-size: 16px;
-    background: #e4edf9;
+    background: #aaa;
+    border-radius: 20px;
+    color: #fff;
     padding: 5px 15px;
     display: inline-block;
     font-weight: 600;
@@ -499,6 +502,11 @@ section {
 /*--------------------------------------------------------------
 # Portafolio
 --------------------------------------------------------------*/
+
+.proyectos{
+    background: #fff;
+    
+}
 
 .proyectos .proyectos-item {
     margin-bottom: 30px;
